@@ -1,4 +1,4 @@
-# Project Title
+# Basic Node Server
 
 A very simple node.js server. Branch `master` serves locally to port 3000. Branch `heroku-deploy` is configured for deploying to a heroku dyno on port 80. Plans for the future include deploy scripts for other environments (perhaps codeanywhere, gitpod, etc. -- maybe even different local environments if I can think of a use case)
 
