@@ -1,23 +1,24 @@
 # Project Title
 
-A very simple node.js server. Currently configured for deploying to a heroku dyno on branch `heroku-deploy`. Plans for the future include deploy scripts for other environments (perhaps codeanywhere, gitpod, etc. -- maybe even different local environments if I can think of a use case)
+A very simple node.js server. Branch `master` serves locally to port 3000. Branch `heroku-deploy` is configured for deploying to a heroku dyno on port 80. Plans for the future include deploy scripts for other environments (perhaps codeanywhere, gitpod, etc. -- maybe even different local environments if I can think of a use case)
 
 ## Getting Started
 
 ### Local
 
-`node server.js`
-Open up a browser to `localhost:3000`
+`git checkout master`<br>
+`node server.js`<br>
+Open up a browser to `localhost:3000`<br>\  
 
 ### For Heroku
 
 Install [Heroku-CLI](https://devcenter.heroku.com/categories/command-line).
-Provide your `heroku login` credentials
-`heroku create` your new app
-`git init`
-`git add .`
-`git commmit -m "your mesage"`
-`git push heroku <branchname>`
+Provide your `heroku login` credentials<br>
+`heroku create` your new app<br>
+`git init`<br>
+`git add .`<br>
+`git commmit -m "your mesage"`<br>
+`git push heroku <branchname>`<br>
 Follow the link provided by heroku to your deployed app
 
 ## Built With
