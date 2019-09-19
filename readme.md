@@ -8,7 +8,7 @@ A very simple node.js server. Branch `master` serves locally to port 3000. Branc
 
 `git checkout master`<br>
 `node server.js`<br>
-Open up a browser to `localhost:3000`<br>\  
+Open up a browser to `localhost:3000`<br>
 
 ### For Heroku
 
