@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 })
 
 // var port = 3000;
-var port = (process.environment.PORT || 3000)
+var port = process.env.PORT || 80
 // var host = "0.0.0.0";
 
 app.listen(port, function () {
