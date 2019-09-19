@@ -7,7 +7,7 @@ A very simple node.js server. Currently configured for deploying to a heroku dyn
 ### Local
 
 `node server.js`
-Open up a browser to `localhost:80`
+Open up a browser to `localhost:3000`
 
 ### For Heroku
 
